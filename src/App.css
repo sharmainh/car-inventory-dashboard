@@ -1,0 +1,141 @@
+*{
+   /* border: 1px solid red;  */
+   
+}
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 5;
+}
+
+.logo{
+  padding-right: 10vh;
+  justify-content: center;
+  font-size: 25px;
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+  color: white;
+} 
+
+.explore{
+  padding-top: 30vh;
+  padding-left: 40vh;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 5; 
+}
+
+.bttn{
+  background-color:rgb(1, 1, 42);
+  color: white;
+  border-color: whitesmoke;
+  border-radius: 12%;
+  padding: 1.5vh;
+  width: 15vh;
+  font-size: 2vh;
+  border-width: 0.4vh
+}
+
+.container{
+  display: flex;
+}
+
+.ev5{
+  margin-top: 40px;
+  margin-top: 80px;
+}
+
+.ev2{
+  padding-right: 10px;
+  margin-top: 50px;
+
+}
+
+.electric{
+margin-left: 10px;
+}
+
+.evImages{
+  border-radius: 40px;
+}
+
+.ev1{
+  width: 600px;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 400px;
+}
+
+.pass{
+ margin-top: 20px;
+ padding: 20px
+  
+}
+
+#email, #pass{
+  padding-right: 60px;
+  line-height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+#submit{
+  background-color: rgb(7, 95, 238) ;
+  color: white;
+  padding: 10px;
+  width: 75px;
+  border-radius: 5px;
+  border: none;
+}
+
+.submit{
+  justify-content: center;
+}
+
+.enyaqIV, .volvoEX30{
+  width: 350px;
+  height: 250px;
+  padding: 75px;
+  margin-left: 50px;
+  border-radius: 20%;
+}
+
+.enyaq{
+  border-radius: 200px;
+}
+
+.volvo{
+  padding-left: 130px;
+  width: 20px;
+}
+
+
+
+
+
+
